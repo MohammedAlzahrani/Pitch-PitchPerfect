@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UT6-Tc-BOA">
-                                <rect key="frame" x="154.5" y="455" width="64" height="64"/>
+                                <rect key="frame" x="154.5" y="443" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="NXb-Km-Olj"/>
                                     <constraint firstAttribute="height" constant="64" id="YW2-Lu-Lda"/>
@@ -42,14 +42,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5qd-ZJ-g6g" firstAttribute="top" secondItem="URL-iQ-74L" secondAttribute="bottom" constant="8" id="CIO-ea-h09"/>
-                            <constraint firstItem="UT6-Tc-BOA" firstAttribute="top" secondItem="5qd-ZJ-g6g" secondAttribute="bottom" constant="15" id="EwH-n3-7kT"/>
-                            <constraint firstItem="5qd-ZJ-g6g" firstAttribute="centerX" secondItem="URL-iQ-74L" secondAttribute="centerX" id="HWL-Os-x7h"/>
-                            <constraint firstItem="URL-iQ-74L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PJV-Km-C7z"/>
-                            <constraint firstItem="URL-iQ-74L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cyI-xo-MqE"/>
-                            <constraint firstItem="UT6-Tc-BOA" firstAttribute="centerX" secondItem="5qd-ZJ-g6g" secondAttribute="centerX" id="vQy-PQ-KPh"/>
+                            <constraint firstItem="5qd-ZJ-g6g" firstAttribute="top" secondItem="URL-iQ-74L" secondAttribute="bottom" constant="8" id="ABo-bw-Thy"/>
+                            <constraint firstItem="URL-iQ-74L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BIv-Yk-OIg"/>
+                            <constraint firstItem="UT6-Tc-BOA" firstAttribute="top" secondItem="5qd-ZJ-g6g" secondAttribute="bottom" constant="3" id="CMz-Mx-YvS"/>
+                            <constraint firstItem="UT6-Tc-BOA" firstAttribute="centerX" secondItem="5qd-ZJ-g6g" secondAttribute="centerX" id="F88-Ut-g5O"/>
+                            <constraint firstItem="URL-iQ-74L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OQO-5v-Spw"/>
+                            <constraint firstItem="5qd-ZJ-g6g" firstAttribute="centerX" secondItem="URL-iQ-74L" secondAttribute="centerX" id="oVI-gz-k7y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -147,7 +147,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VRd-jK-vab" firstAttribute="centerX" secondItem="Xra-Um-8dU" secondAttribute="centerX" id="2rC-bj-enR"/>
                             <constraint firstItem="Xra-Um-8dU" firstAttribute="trailing" secondItem="Crt-2O-nzS" secondAttribute="trailing" id="6xN-yn-DGW"/>
