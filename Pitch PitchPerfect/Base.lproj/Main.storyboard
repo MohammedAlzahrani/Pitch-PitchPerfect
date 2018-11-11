@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UT6-Tc-BOA">
-                                <rect key="frame" x="154.5" y="443" width="64" height="64"/>
+                                <rect key="frame" x="154.5" y="431" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="NXb-Km-Olj"/>
                                     <constraint firstAttribute="height" constant="64" id="YW2-Lu-Lda"/>
@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qd-ZJ-g6g">
-                                <rect key="frame" x="133.5" y="419" width="107" height="21"/>
+                                <rect key="frame" x="133.5" y="407" width="107" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -44,7 +44,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5qd-ZJ-g6g" firstAttribute="top" secondItem="URL-iQ-74L" secondAttribute="bottom" constant="8" id="ABo-bw-Thy"/>
+                            <constraint firstItem="5qd-ZJ-g6g" firstAttribute="top" secondItem="URL-iQ-74L" secondAttribute="bottom" constant="-4" id="ABo-bw-Thy"/>
                             <constraint firstItem="URL-iQ-74L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BIv-Yk-OIg"/>
                             <constraint firstItem="UT6-Tc-BOA" firstAttribute="top" secondItem="5qd-ZJ-g6g" secondAttribute="bottom" constant="3" id="CMz-Mx-YvS"/>
                             <constraint firstItem="UT6-Tc-BOA" firstAttribute="centerX" secondItem="5qd-ZJ-g6g" secondAttribute="centerX" id="F88-Ut-g5O"/>

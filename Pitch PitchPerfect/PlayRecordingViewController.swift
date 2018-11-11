@@ -57,12 +57,11 @@ class PlayRecordingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAudio()
-        slowButton.imageView?.contentMode = .scaleAspectFit
-        fastButton.imageView?.contentMode = .scaleAspectFit
-        highPitchButton.imageView?.contentMode = .scaleAspectFit
-        lowPitchButton.imageView?.contentMode = .scaleAspectFit
-        echoButton.imageView?.contentMode = .scaleAspectFit
-        reverbButton.imageView?.contentMode = .scaleAspectFit
+        // suggested by the reviewer
+        let arrayOfButtons = [slowButton, fastButton, highPitchButton, lowPitchButton, echoButton, reverbButton]
+        for button in arrayOfButtons {
+            button?.imageView?.contentMode = .scaleAspectFit
+        }
     }
     
 
